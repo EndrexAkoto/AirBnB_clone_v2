@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # Fabfile to generates a .tgz archive
 import os.path
-from datetime import datetime
 from fabric.api import local
+from datetime import datetime
 
 
 def do_pack():
