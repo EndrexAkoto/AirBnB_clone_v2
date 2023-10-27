@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Fabfile to generates a .tgz archive
+# Fabric script that generates a .tgz archive
 import os.path
 from fabric.api import local
 from datetime import datetime

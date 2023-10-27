@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-# Script that deploys to a server
+# Deploys to the server
 
 import os.path
 from fabric.api import env
 from fabric.api import put
 from fabric.api import run
 
-env.hosts = ["34.201.174.77", "100.26.174.137"]
+env.hosts = ["34.207.121.49", "54.90.56.41"]
 
 
 def do_deploy(archive_path):

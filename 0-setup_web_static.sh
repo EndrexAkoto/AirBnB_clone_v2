@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# how to set up web server for deployment
+# set up web server deployment
 
 apt-get update
 apt-get install -y nginx
